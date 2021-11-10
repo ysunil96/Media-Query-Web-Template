@@ -1,0 +1,531 @@
+@media screen and (max-width: 760px) {
+  * {
+    margin-top: 0%;
+  }
+
+  body {
+    padding: 5px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: "Averia Serif Libre";
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    justify-items: stretch;
+    padding-bottom: 20px;
+  }
+
+  label {
+    margin: 0;
+    padding-left: 0.1px;
+    font-size: 26px;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 0%;
+  }
+
+  .tog {
+    display: grid;
+    place-items: center center;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+  .nav ul li {
+    display: block;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .menu-list {
+    position: absolute;
+    background-color: rgb(57, 57, 181);
+    width: 100%;
+    height: max-content;
+    padding: 0px;
+    display: block;
+    top: -300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    margin-top: 0%;
+    transition: 1s;
+  }
+
+  #close {
+    cursor: pointer;
+    display: none;
+  }
+
+  #close-toggle {
+    font-size: 30px;
+    padding: 20px;
+    float: left;
+    cursor: pointer;
+    color: white;
+  }
+
+  hr {
+    width: 50%;
+  }
+
+  .search input {
+    display: none;
+  }
+
+  .logo-text {
+    display: grid;
+    place-items: center center;
+  }
+
+  .search {
+    display: grid;
+    place-items: center center;
+  }
+
+  .logo-dot {
+    color: rgb(57, 57, 181);
+  }
+
+  .search i {
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0%;
+    border: 0px;
+    padding-right: 5px;
+  }
+
+  .section-1 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .section-1 h1 span {
+    color: rgb(57, 57, 181);
+  }
+
+  .section-1 p {
+    color: gray;
+    font-weight: lighter;
+  }
+
+  .section-1 button {
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(57, 57, 181);
+    border-radius: 15px;
+    border: 0px solid;
+    width: max-content;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  .grid-1{
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+  }
+
+  .grid-1 img{
+    width: 80%;
+    border-radius: 18px;
+    margin: auto;
+    display: block;
+    
+    }
+  
+
+  .section-2 {
+    flex-direction: column;
+    width: 100%;
+    margin:0 20px;
+    margin-bottom: 30px;
+    
+  }
+
+  .grid-2 {
+  width: 60%;
+  min-height: auto;
+  padding: 30px;
+  border-radius: 8px;
+  color: black;
+  margin: 0;
+  margin:-100px auto;
+  display: grid;
+  place-items: center center;
+  
+  
+}
+
+  .text-heading {
+    padding: 18px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+    border-radius: 30px;
+    text-align: left;
+    height:min-content;
+    width: 60%;
+    font-size: 10px;
+  }
+
+  .text-heading h3 {
+    padding-bottom: 5px;
+    color: rgb(57, 57, 181);
+    font-size: 1rem;
+  }
+
+  .text-heading p {
+    padding-bottom: 5px;
+    color: grey;
+    font-size: 1rem;
+  }
+
+  .media {
+    padding-top: 30px;
+  }
+
+  .media img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section-2 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .section-3 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .media {
+    padding-top: 20px;
+  }
+
+  .media a {
+    text-decoration: none;
+    padding-right: 20px;
+  }
+
+  .section-3 {
+    padding: 50px;
+    margin-top: 50px;
+  }
+
+  .writers {
+    background-color: rgb(57, 57, 181);
+    border-radius: 20px;
+    color: white;
+    width: 70%;
+    margin: auto;
+  }
+
+  .writers h1 {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .writer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+  }
+
+  .writer-section h3 {
+    font-weight: lighter;
+    font-size: 15px;
+  }
+
+  .writer-section img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .footer {
+    height: 40px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  * {
+    margin: 0;
+  }
+
+  body {
+    background-color: white;
+    font-family: "Averia Serif Libre";
+  }
+
+  .nav {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 3fr 1fr;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+
+  .tog {
+    margin: 0%;
+    padding-left: 20px;
+    width: 30px;
+  }
+
+  label {
+    margin: 0%;
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  #close {
+    cursor: pointer;
+    display: none;
+  }
+
+  .logo-text {
+    font-size: 1.7rem;
+    margin: 0.5rem;
+  }
+
+  .logo-dot {
+    color: rgb(57, 57, 181);
+  }
+
+  .menu-list {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .nav ul li {
+    list-style: none;
+    display: block;
+    padding-right: 50px;
+  }
+  .nav ul {
+    display: flex;
+  }
+  .search input {
+    background-color: rgb(201, 198, 198);
+    color: rgb(96, 89, 89);
+    border-radius: 0px 20px 20px 0px;
+    border: 0px solid;
+    padding: 10px 10px 10px 0px;
+    border: none;
+    outline: none;
+  }
+
+  .search i {
+    background-color: rgb(201, 198, 198);
+    padding: 9px 5px 11px 10px;
+    margin: 0%;
+    border: 0px;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .search {
+    display: grid;
+    place-items: center center;
+  }
+
+  .search-box {
+    height: max-content;
+    width: max-content;
+    background-color: rgb(201, 198, 198);
+    border-radius: 20px;
+  }
+
+  .section-1 {
+    display: grid;
+    place-items: center center;
+    text-align: center;
+  }
+
+  .section-1 h1 {
+    font-size: 60px;
+  }
+
+  .section-1 h1 span {
+    font-size: 60px;
+    color: rgb(57, 57, 181);
+  }
+
+  .section-1 p {
+    font-size: 30px;
+    color: gray;
+    font-weight: lighter;
+  }
+
+  .section-1 button {
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(57, 57, 181);
+    border-radius: 15px;
+    border: 0px solid;
+    width: max-content;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  .grid-1{
+    width: 50%;
+  height: min-content;
+  }
+
+  .grid-1 img{
+    width: auto;
+    height: min-content;
+    border-radius: 18px;
+    }
+
+  .section-2 {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+    
+  }
+
+  .grid-2 {
+  width: 90%;
+  min-height: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: black;
+  margin-left: -100px;
+}
+
+  .text-heading {
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+    border-radius: 30px;
+    height: auto;
+    width: auto;
+  }
+
+  .text-heading h2 {
+    padding-bottom: 15px;
+    font-size: 2rem;
+  }
+
+  .text-heading h3 {
+    padding-bottom: 15px;
+    color: rgb(57, 57, 181);
+    font-size: 1.5rem;
+  }
+
+  .text-heading p {
+    padding-bottom: 15px;
+    color: grey;
+    font-size: 1.1rem;
+  }
+
+  .media {
+    display: block;
+    float: right;
+    padding-top: 30px;
+    
+  }
+
+  .media a {
+    padding-right: 40px;
+    text-decoration: none;
+  }
+
+  .media a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .section-3 {
+    padding: 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0%;
+  }
+
+  .writers {
+    background-color: rgb(57, 57, 181);
+    border-radius: 30px;
+    padding-top: 30px;
+  }
+
+  .writers h1 {
+    text-align: center;
+    color: white;
+  }
+  .writer-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+  }
+  .writer-section div {
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+    font-weight: lighter;
+  }
+
+  .writer-section {
+    margin: auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    justify-content: space-around;
+    box-sizing: border-box;
+    margin: auto;
+  }
+
+  .footer {
+    height: 50px;
+    width: 100%;
+  }
+}

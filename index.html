@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Playfair+Display:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>BookPod.</title>
+    
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <nav class="nav">
+            <div class="tog">
+            <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" onclick="showMenu()">
+    </div>
+          <div class="logo-text">
+            <h1>
+              BookPod<span class="logo-dot">.</span>
+            </h1>
+            </div>
+            <div class="menu-list" id="menu">
+              <label for="close" id="close-toggle">&#x58;</label>
+              <input type="checkbox" id="close" onclick="hideMenu()">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <hr>
+                <li><a href="#">Categories</a></li>
+                <hr>
+                <li><a href="#">Podcasts</a></li>
+                <hr>
+            </ul>
+            </div>
+            <div class="search">
+              <div class="search-box">
+            <i class="fa fa-search"  id="search-tog"aria-hidden="true"></i>
+            <input type="text" name="search" id="search-id" placeholder="Search..." ></input>
+          </div>
+            </div>
+          
+        </nav>
+      </div>
+
+      <main>
+        <section>
+          <div class="section-1">
+            <h1>
+              Home of <span>100,000+</span>
+              <br>
+              books and podcasts
+            </h1>
+            <p>
+              Get the latest books and listen to the <br>
+              latest podcasts all in one place
+            </p>
+            <br />
+            <button>Get started</button>
+          </div>
+        </section>
+        <div class="section-2">
+          
+            <div class="grid-1">
+              <img
+                src="./images/img-1.png"
+                alt="img-1"
+              />
+            </div>
+            <div class="grid-2">
+              <div class="text-heading">
+                <h3>Lorem, ipsum.</h3>
+                <h2>
+                  Lorem ipsum <br>dolor sit amet.
+                </h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                   Placeat, voluptatem. Eius maiores error
+                  dignissimos recusandae dolorum et mollitia?
+                </p>
+              </div>
+              <div class="media">
+                <a href="#">
+                  <img
+                    src="./images/twitter.png"
+                    alt="twitter"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./images/fb.png"
+                    alt="FaceBook"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./images/insta.png"
+                    alt="Instagram"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="./images/in.png"
+                    alt="LinkedIn"
+                  />
+                </a>
+              </div>
+            </div>
+        </div>
+        <div class="section-3">
+          <div class="writers">
+            <h1>Featured Writers</h1>
+            <div class="writer-section">
+              <div class="one">
+                <img
+                  src="./images/erb.jpg"
+                  alt="E R Braithwaite"
+                />
+                <h3>E R Braithwaite</h3>
+              </div>
+              <div class="two">
+                <img
+                  src="./images/AL.jpg"
+                  alt="Andrea Levy"
+                />
+                <h3>Andrea Levy</h3>
+              </div>
+              <div class="three">
+                <img
+                  src="./images/sk.jpg"
+                  alt="Stephen King"
+                />
+                <h3>Stephen King</h3>
+              </div>
+              <div class="four">
+                <img
+                  src="./images/ga.jpg"
+                  alt="Jorge Amado"
+                />
+                <h3>Jorge Amado</h3>
+              </div>
+              <div class="five">
+                <img
+                  src="./images/gf.jpg"
+                  alt="Gayle Forman"
+                />
+                <h3>Gayle Forman</h3>
+              </div>
+              <div class="six">
+                <img
+                  src="./images/st.jpg"
+                  alt="Shashi Tharoor"
+                />
+                <h3>Shashi Tharoor</h3>
+              </div>
+              <div class="seven">
+                <img
+                  src="./images/jkr.jpg"
+                  alt="J K Rowling"
+                />
+                <h3>J K Rowling</h3>
+              </div>
+              <div class="eight">
+                <img
+                  src="./images/jg.jpg"
+                  alt="John Green"
+                />
+                <h3>John Green</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="footer"></div>
+      
+</body>
+
+<script>
+    const show = document.getElementById("menu");
+
+    function showMenu(){
+      show.style.top = "0";
+    }
+
+    function hideMenu(){
+      show.style.top = "-300px";
+    }
+
+
+</script>
+</html>
